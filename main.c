@@ -5,7 +5,7 @@
 void main (int argc, char *argv[])
 {
     int wt[20]; int tat[20];
-    FILE *file = fopen(argv[1],"r");//Ouverture du fichier en mode ecriture
+    FILE *file = fopen("process.txt","r");//Ouverture du fichier en mode ecriture
       if(file==NULL)
     {
         exit(1);// Si le fichier est vide , le fermer 
